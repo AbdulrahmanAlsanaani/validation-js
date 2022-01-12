@@ -4,20 +4,32 @@
 }
 
 form {
-    width: 300px;
+    width: 50%;
     height: auto;
-    background: #aaa;
-    margin: 150px auto;
-    padding: 20px 0 ;
+    background: #437398;
+    margin: 50px auto 0 auto;
+    border-radius: 13px;
+    padding: 20px 0;
+    text-align: center;
+    color: #e5e9ed;
 }
 
 form input{
+    width: 80%;
     display: block;
     margin: 30px auto;
 }
 
+#submit{
+    width: 25%;
+    background-color: #e5e9ed;
+    position: relative;
+    right: -155px;
+}
+
 form textarea{
     display: block;
+    width: 80%;
     margin: 5px auto;
 }
 
