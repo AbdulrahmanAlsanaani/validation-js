@@ -25,8 +25,9 @@ function reg() {
     }
     
     if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))) {
-        document.getElementById("name_masseg").innerHTML = "asdddddddddd";
+        document.getElementById("name_masseg").innerHTML = "email sentacs is nout true";
         return false;
-    }
+    }else
+    document.getElementById("name_masseg").innerHTML = "";
 
 }
