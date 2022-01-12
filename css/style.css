@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    width: 300px;
+    height: auto;
+    background: #aaa;
+    margin: 150px auto;
+    padding: 20px 0 ;
+}
+
+form input{
+    display: block;
+    margin: 30px auto;
+}
+
+form textarea{
+    display: block;
+    margin: 5px auto;
+}
+
