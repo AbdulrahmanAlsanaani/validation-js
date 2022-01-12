@@ -37,8 +37,9 @@ form input{
 }
 
 #submit{
+    cursor: pointer;
     width: 25%;
-    background-color: #e5e9ed;
+    background-color: #ffffff;
     font-size: 1rem;
     margin-top: 20px;
     margin-right:0 ;
