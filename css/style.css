@@ -1,40 +1,63 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: cursive;
 }
+
+
+
+
+
 
 form {
     width: 50%;
     height: auto;
-    background: #437398;
-    margin: 50px auto 0 auto;
+    background: linear-gradient(to bottom right, #00eeff, #ff00bf);
+    margin: 50px auto;
     border-radius: 13px;
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
     text-align: center;
-    color: #e5e9ed;
+    color: white;
 }
 
 p{
-    color: red;
-    font-size: 20px
+    color: white;
+    font-size: 15px;
 }
 
 form input{
     width: 80%;
+    height: 30px;
+    border: none;
+    background-color: white;
+    padding: 0 2%;
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
+    border-radius: 5px;
 }
 
 #submit{
     width: 25%;
     background-color: #e5e9ed;
-    position: relative;
-    right: -155px;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-right:0 ;
+}
+
+.submit{
+    width: 84%;
+    margin: auto;
 }
 
 form textarea{
     display: block;
     width: 80%;
+    border: none;
+    background-color: white;
+    padding: 0 2%;
+    resize: none;
+    height: 120px;
     margin: 5px auto;
+    border-radius: 5px;
 }
 
